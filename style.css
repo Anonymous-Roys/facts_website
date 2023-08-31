@@ -1,0 +1,157 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Common styles for forms and containers */
+.form-container,
+.dashboard-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+/* Common styles for form inputs and buttons */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 95%;
+    padding: 1rem;
+    margin-right:5px ;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ff5733;
+    /* Salmon */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container a {
+    color: #ff5733;
+    /* Salmon */
+    text-decoration: none;
+    padding: 9px 0px;
+    margin: 9px 0px;
+}
+
+.dashboard-container h2 {
+    color: #ff5733;
+    /* Salmon */
+    margin-bottom: 1rem;
+}
+
+/* Facts table styles */
+.facts-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.facts-table th,
+.facts-table td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.facts-table th {
+    background-color: #ff5733;
+    /* Salmon */
+    color: #fff;
+}
+
+.facts-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 240px;
+    background-color: #303f9f;
+    /* Darker Blue */
+    color: #fff;
+    padding-top: 1rem;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #3f51b5;
+    /* Dark Blue */
+}
+
+/* Header styles */
+header {
+    background-color: #ff5733;
+    /* Salmon */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* Cover full width */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Dashboard styles */
+.dashboard-container {
+    text-align: center;
+}

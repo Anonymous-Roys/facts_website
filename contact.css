@@ -1,0 +1,106 @@
+body{
+    background: url("img/dogs.jpeg");
+}
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #2b2b2b;
+    padding: 14px 50px;
+    border-radius: 6px;
+    background: rgba(74, 74, 75, 0.826);
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(62, 62, 62);
+}
+form .btn {
+    margin: 20px 0;
+    padding: 14px 60px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.container{
+    padding: 10px 10%;
+}
+header {
+   background-color: rgba(0, 0, 0,0.5);
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 18%;
+}
+.contact-left img {
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.contact-left {
+    flex-basis: 35%;
+    color: #fff;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.info img {
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.info img:hover {
+    transform: translateY(-4px)
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    resize: none;
+}
+
+form .btn {
+    margin: 20px 0;
+    padding: 14px 60px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.copy {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+#typing-text{
+    font-size: 30px;
+}

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ----------------------------------------------- */
+
+
+header {
+    background-color: rgba(1, 1, 1, 0.5);
+    font-weight: 600;
+}
+
+body{
+    animation: changeBackground 7s infinite alternate;
+}
+
+
+.facts-table {
+    width: 99%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.facts-table th,
+.facts-table td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.facts-table th {
+    background-color: #ff5733;
+    /* Salmon */
+    color: #fff;
+}
+
+.facts-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+    z-index: 999;
+}
+
+.majorbtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.majorbtns a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.factsbtns {
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    background-color: #2696E9;
+    transition: 0.4s ease;
+}
+
+.factsbtns:hover {
+    transform: scale(1.1);
+    background-color: #094c80;
+}
+
+
+
+@keyframes changeBackground {
+    0% {
+        background-image: url('img/tiger.png');
+    }
+
+    33.33% {
+        background-image: url('img/factsss.jpg');
+    }
+
+    66.66% {
+        background-image: url('img/kittens.jpeg');
+    }
+
+    100% {
+        background-image: url('img/tiger.jpg');
+        /* Return to the first image */
+    }
+}
+
+@media (max-width: 1040px) {
+    header {
+        background-color: rgba(0, 0, 0, 0);
+            
+        }
+}
